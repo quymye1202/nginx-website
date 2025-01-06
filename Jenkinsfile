@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'nginx-website'
-        DOCKER_REGISTRY = 'docker.io/yourusername'
+        DOCKER_REGISTRY = 'docker.io/quymye'
         BRANCH = 'main'
         IMAGE_TAG = "${GIT_COMMIT}"
     }
